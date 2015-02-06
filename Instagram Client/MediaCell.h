@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MediaCell.h
 //  Instagram Client
 //
 //  Created by Charlie Hu on 2/4/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MediaCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *mediaImageView;
 
 @end
-
